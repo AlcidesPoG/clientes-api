@@ -83,7 +83,7 @@ operaciones que permiten están el crear cliente, buscar clientes, editar y elim
 ### Clonar el proyecto 
 
 ```bash 
-  git clone ¨//Todo agregar link del repositorio aqui¨
+  git clone https://github.com/AlcidesPoG/clientes-api.git
 ```
 Una vez tenga el proyecto clonado, ingrese al mismo para proceder a configurar el proyecto.
 
