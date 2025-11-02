@@ -147,12 +147,17 @@ quarkus.swagger-ui.always-include=true
 ```
 
 > **Nota:**
-> Si desea utilizar otra base de datos diferente a postgresql, tendra que instalar la extension de la base de datos que
-> corresponde con Quarkus. Por ejemplo:
+> Si desea utilizar otra base de datos tipo SQL diferente a PostgreSQL, tendra que instalar la extension de la base de datos que
+> corresponde con Quarkus y JDBC. Por ejemplo:
 >  ```bash 
 > ./mvnw quarkus:add-extension -Dextensions="jdbc-mysql"
 >```
-> Enlace a la documentacion de quarkus: https://es.quarkus.io/guides/datasource
+> > Enlace a la documentacion de quarkus: https://es.quarkus.io/guides/datasource
+
+> Advertencia: La base de datos `H2` se usa en el entorno de prueba y tiene un scope de test en el pom.xml, 
+> por lo que no será utilizable en otros entornos aparte del de pruebas. Si se desea usarla en el entorno de desarrollo, 
+> se debe remover el scope de test en el pom.xml (preferiblemente utilizar otra base de datos para mantener la 
+> integridad de las pruebas).
 
 ## Ejecución del proyecto
 
@@ -1375,8 +1380,7 @@ sequenceDiagram
 ```
 ---
 
-**Autor: Alcides Polanco German**
-
+### Autor: Alcides Polanco German
 **Fecha: 2/11/2025**
 
 
