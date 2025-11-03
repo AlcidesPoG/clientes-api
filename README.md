@@ -357,7 +357,7 @@ Una lista de datos de clientes:
 
 Este es el endpoint encargado de retornar una lista de clientes que pertenecen a un país específico.
 
-`GET` **Endpoint:**`http://localhost:8080/clientes/pais/{codigoPais}`
+**Método**:`GET` **Endpoint:**`http://localhost:8080/clientes/pais/{codigoPais}`
 
 ### Parámetros de ruta
 
@@ -885,6 +885,12 @@ correcto funcionamiento de todo el sistema.
 ---
 
 ## Diagramas
+
+> En caso de que los diagramas no se vean en **Github** por el error: `Unable to render rich display`, no son los 
+diagramas dañados, es un error de **Github**. Puede ver los diagramas en el siguiente link en caso de que no 
+**carguen**.
+
+>Enlace: https://drive.google.com/drive/folders/1USZ0ppeNupabaF4MWBHydfg0XzBHF3hY?usp=drive_link
 
 ### Diagrama de arquitectura general
 
