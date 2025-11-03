@@ -162,10 +162,14 @@ quarkus.swagger-ui.always-include=true
 ## Ejecución del proyecto
 
 Luego de configurar el archivo `application.properties`, puedes iniciar la aplicación con los siguientes comandos en consola:
-```basha
+```bash
   ./mvnw quarkus:dev
 ```
-o
+Para el modo producción, se deben ejecutar los siguientes comandos en orden:
+
+```bash
+  ./mvnw package
+```
 
 ```bash
   ./mvnw quarkus:run
